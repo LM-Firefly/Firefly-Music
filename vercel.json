@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:match*",
+      "destination": "https://firefly-music.vercel.app/:match*"
+    }
+  ]
+}
